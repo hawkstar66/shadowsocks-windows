@@ -1,3 +1,45 @@
+4.1.7.1 2019-07-14
+- Fix unexpected server delete behavior (#2459)
+- Reduce info log when checking Windows 10 Light Theme
+
+4.1.7 2019-07-10
+- Fix UDP relay (#2387)
+- Support Windows 10 1903 Light Theme (#2379)
+- Listening on local IPv6 interface (#2419) (Experimental)
+- Turn off per-monitor DPI awareness as it is not supported (#2427)
+- Fix a defect when parsing ss:// URL (#2364)
+- Upgrade the development environment to VS2017 with .NET Framework 4.7.2
+- Refactoring config form (#2410)
+- Refactoring tray icon
+- Other minor bug fixes and improvements
+
+4.1.6 2019-04-17
+- Add http proxy "basic access authentication"
+- Add check box to toggle plugin argument input
+- Add apply button for server configuration form
+- Update UI of switching proxy mode
+- Update exception handler for port assignment
+
+4.1.5 2019-03-08
+- Update nuget packages
+- Update the PAC javascript to support user rules in a better way
+- Other minor bug fixes and improvements
+
+4.1.4 2019-02-04
+- Update Privoxy to 3.0.28
+- Enlarge Privoxy max client connections
+- Update the system proxy when user-rule.txt is changed
+- Register restart after system reboot
+
+4.1.3.1 2018-12-09
+- Fix error when usersettings bypasslist is null
+
+4.1.3 2018-12-08
+- Refine sysproxy exception handling
+- Keep user bypass setting when use global proxy mode
+- Update .Net download link
+- Minor improvements
+
 4.1.2 2018-09-13
 - Fix plugin CLI argument environment variable issue (#1969 #1818)
 - Other minor bug fixes and improvements (#1978 #1968 #1993)
